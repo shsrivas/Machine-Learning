@@ -3,7 +3,7 @@ import PyPDF2
 import pyttsx3
 
 # path of the PDF file
-p = open('whatyouthink.pdf.pdf', 'rb')
+p = open('whatyouthink.pdf', 'rb')
 
 # creating a PdfFileReader object
 reader = PyPDF2.PdfFileReader(p)
